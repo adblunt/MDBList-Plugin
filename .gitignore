@@ -403,3 +403,4 @@ FodyWeavers.xsd
 # Local files
 Test-RatingsApi.ps1
 rating-sync-audience/
+AGENTS.md
