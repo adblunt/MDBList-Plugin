@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>MdbListRatingsProvider</AssemblyName>
+    <RootNamespace>MdbListRatingsProvider</RootNamespace>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Version>1.0.1.11</Version>
+    <AssemblyVersion>1.0.1.11</AssemblyVersion>
+    <FileVersion>1.0.1.11</FileVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="mediabrowser.server.core" Version="4.9.1.80" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Configuration\config.html" />
+    <EmbeddedResource Include="Configuration\config.js" />
+    <EmbeddedResource Include="Images\thumb.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="rating-sync-audience\**" />
+    <EmbeddedResource Remove="rating-sync-audience\**" />
+    <None Remove="rating-sync-audience\**" />
+  </ItemGroup>
+</Project>

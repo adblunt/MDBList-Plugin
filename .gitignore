@@ -399,3 +399,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Local files
+Test-RatingsApi.ps1
+rating-sync-audience/

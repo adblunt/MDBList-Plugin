@@ -1,0 +1,33 @@
+<div is="emby-scroller"
+     data-controller="configurationpage?name=MdbListRatingsProviderConfigJs"
+     class="view flex flex-direction-column scrollFrameY flex-grow"
+     data-horizontal="false"
+     data-forcescrollbar="true"
+     data-centerfocus="true"
+     data-bindheader="true"
+     data-title="MDBList Ratings Provider">
+
+    <div class="scrollSlider flex-direction-column padded-left padded-left-page padded-right padded-top-page padded-bottom-page">
+        <div class="readOnlyContent auto-center" style="max-width: 900px; background-color: var(--theme-background); padding: 2em; border-radius: 8px;">
+            
+            <form class="MdbListRatingsProviderConfigForm">
+                <div class="verticalSection">
+                    <h2 class="sectionTitle">General Settings</h2>
+                    <p style="margin-bottom: 2em;">Configure how Rotten Tomatoes scores are fetched from MDBList.</p>
+                    
+                    <div class="inputContainer">
+                        <label class="inputLabel inputLabelUnfocused" for="ApiKey">MDBList API Key</label>
+                        <input id="ApiKey" name="ApiKey" type="text" is="emby-input" autocomplete="off" />
+                        <div class="fieldDescription">Used to query MDBList for Rotten Tomatoes critic and audience scores. You can get a key from <a href="https://mdblist.com" target="_blank">mdblist.com</a>.</div>
+                    </div>
+                </div>
+
+                <div class="buttonContainer">
+                    <button is="emby-button" type="submit" class="raised button-submit block emby-button">
+                        <span>Save</span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
