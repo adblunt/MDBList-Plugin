@@ -250,7 +250,7 @@ public sealed class MdbListProvider : IRemoteMetadataProvider<Movie, MovieInfo>,
                     {
                         critic = TryReadFloat(element, "value") ?? TryReadFloat(element, "score");
                     }
-                    else if (string.Equals(source, "tomatoes_audience", StringComparison.OrdinalIgnoreCase))
+                    else if (string.Equals(source, "tomatoes_audience", StringComparison.OrdinalIgnoreCase) || string.Equals(source, "popcorn", StringComparison.OrdinalIgnoreCase))
                     {
                         audience = TryReadFloat(element, "value") ?? TryReadFloat(element, "score");
                     }

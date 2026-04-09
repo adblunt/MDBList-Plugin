@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.1.12] - 2026-04-09
+
+### Fixed
+- Added support for the `popcorn` rating source from MDBList to ensure Rotten Tomatoes audience scores are correctly mapped to Emby `CommunityRating`.
+- Corrected parsing logic to prefer the newer `ratings` array while maintaining fallback to root properties.
+
+### Added
+- Added custom plugin thumbnail (`thumb.png`) to improve visibility in the Emby dashboard.
+
 ## [1.0.1.9] - 2026-04-08
 
 ### Added

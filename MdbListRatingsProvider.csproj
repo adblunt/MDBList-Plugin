@@ -6,9 +6,9 @@
     <AssemblyName>MdbListRatingsProvider</AssemblyName>
     <RootNamespace>MdbListRatingsProvider</RootNamespace>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
-    <Version>1.0.1.11</Version>
-    <AssemblyVersion>1.0.1.11</AssemblyVersion>
-    <FileVersion>1.0.1.11</FileVersion>
+    <Version>1.0.1.12</Version>
+    <AssemblyVersion>1.0.1.12</AssemblyVersion>
+    <FileVersion>1.0.1.12</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
